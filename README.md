@@ -40,7 +40,7 @@ Construir um ambiente virtual semelhante a uma infraestrutura corporativa para p
 
 ---
 
-## 🌐 Topologia Atual
+## 🌐 Topologia
 
 ```text
                     Internet
@@ -86,10 +86,12 @@ Construir um ambiente virtual semelhante a uma infraestrutura corporativa para p
 
 ### Sprint 02 — Windows Endpoint
 
-* [ ] Windows 11
-* [ ] Hardening
-* [ ] Sysmon
-* [ ] Wazuh Agent
+* [x] Instalação Windows 11 Pro
+* [x] Integração com pfSense
+* [x] Configuração IP via DHCP
+* [x] Testes de conectividade
+* [x] DNS Validation
+* [x] Windows Update
 
 ### Sprint 03 — Linux Server
 
@@ -187,18 +189,16 @@ cybersecurity-home-lab/
 
 ---
 
-## 📈 Progresso
-
-Sprint Atual:
+## 📌 Status Atual
 
 ```text
-Sprint 02 — Windows Endpoint
-```
-
-Progresso Geral:
-
-```text
-█░░░░░░░░░░ 14%
+Sprint 01 - pfSense Firewall       ✅ Concluído
+Sprint 02 - Windows 11 Endpoint    ✅ Concluído
+Sprint 03 - Ubuntu Server          ⏳ Em andamento
+Sprint 04 - Kali Linux             ⏳ Planejado
+Sprint 05 - Metasploitable 2       ⏳ Planejado
+Sprint 06 - Wazuh SIEM             ⏳ Planejado
+Sprint 07 - SOC Monitoring         ⏳ Planejado
 ```
 
 ---
